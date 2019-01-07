@@ -71,7 +71,8 @@ add_action('admin_menu', 'muffia_remove_builtin_posttype_menu');
 function muffia_admin_init()
 {
     muffia_unregister_post_type('post');
-    muffia_unregister_post_type('clients');
+    muffia_unregister_post_type('client');
+    muffia_unregister_post_type('slide');
     muffia_unregister_post_type('offer');
     muffia_unregister_post_type('portfolio');
     muffia_unregister_post_type('testimonial');

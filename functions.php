@@ -47,3 +47,18 @@ function mfnch_textdomain()
 }
 
 
+/* ---------------------------------------------------------------------------
+ * Load Dependencies
+ * --------------------------------------------------------------------------- */
+require_once('vendor/autoload.php');
+
+
+/* ---------------------------------------------------------------------------
+ * Load Initials
+ * --------------------------------------------------------------------------- */
+require_once('initials/posttypes.php');
+require_once('initials/taxonomies.php');
+require_once('initials/metaboxes-posttypes.php');
+require_once('initials/metaboxes-taxonomies.php');
+
+

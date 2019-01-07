@@ -16,7 +16,7 @@ function muffia_post_types_init()
         'menu_name' => 'Products'
     );
 
-    $supports = array('title', 'tags', 'editor', 'custom-fields');
+    $supports = array('title', 'tags', 'editor');
 
     $muffia_posts_args = array(
         'labels' => $muffia_posts_labels,
@@ -32,7 +32,7 @@ function muffia_post_types_init()
         'hierarchical' => false,
         'menu_position' => null,
         'supports' => $supports,
-        'taxonomies' => array('post_tag', 'products_cat'),
+        'taxonomies' => array('products_cat'),
         'menu_icon' => 'dashicons-cart'
     );
 

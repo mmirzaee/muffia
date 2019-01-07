@@ -3,8 +3,6 @@
 // Products
 function muffia_products_metabox()
 {
-    $prefix = 'muffia_product_';
-
     /**
      * Initiate the metabox
      */

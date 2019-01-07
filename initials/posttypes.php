@@ -6,17 +6,17 @@ function muffia_post_types_init()
     // Posts
 
     $muffia_posts_labels = array(
-        'name' => 'products',
+        'name' => 'Products',
         'singular_name' => 'product',
-        'add_new' => 'new product',
-        'add_new_item' => 'add new product',
-        'edit_item' => 'edit product',
-        'new_item' => 'add product',
-        'all_items' => 'products',
+        'add_new' => 'New product',
+        'add_new_item' => 'Add New Product',
+        'edit_item' => 'Edit Product',
+        'new_item' => 'Add Product',
+        'all_items' => 'Products',
         'menu_name' => 'Products'
     );
 
-    $supports = array('title', 'tags', 'editor');
+    $supports = array('title', 'tags', 'editor', 'custom-fields');
 
     $muffia_posts_args = array(
         'labels' => $muffia_posts_labels,
@@ -32,7 +32,7 @@ function muffia_post_types_init()
         'hierarchical' => false,
         'menu_position' => null,
         'supports' => $supports,
-        'taxonomies' => array('post_tag', 'category'),
+        'taxonomies' => array('post_tag', 'products_cat'),
         'menu_icon' => 'dashicons-cart'
     );
 

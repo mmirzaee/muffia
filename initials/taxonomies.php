@@ -23,7 +23,7 @@ function muffia_taxonomies_init()
 
 
     // Registering
-    register_taxonomy('products_cat', 'products', $muffia_products_cat_args);
+    register_taxonomy('products_cat', 'muffia_products', $muffia_products_cat_args);
 
 }
 

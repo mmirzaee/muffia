@@ -39,7 +39,7 @@ function muffia_post_types_init()
 
     // Registering
 
-    register_post_type('muffia_posts', $muffia_posts_args);
+    register_post_type('muffia_products', $muffia_posts_args);
 
 
 }

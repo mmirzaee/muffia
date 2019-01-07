@@ -51,10 +51,7 @@ function mfnch_textdomain()
  * Load Dependencies
  * --------------------------------------------------------------------------- */
 require_once('vendor/autoload.php');
-
-if (file_exists('vendor/cmb2/cmb2/init.php')) {
-    require_once('vendor/cmb2/cmb2/init.php');
-}
+require_once('vendor/cmb2/cmb2/init.php');
 
 
 /* ---------------------------------------------------------------------------

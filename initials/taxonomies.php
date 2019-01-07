@@ -15,10 +15,10 @@ function muffia_taxonomies_init()
     $muffia_products_cat_args = array(
         'hierarchical' => true,
         'labels' => $muffia_products_cat_labels,
+        'public' => true,
         'show_ui' => true,
         'show_admin_column' => true,
         'query_var' => true,
-        'rewrite' => array('slug' => 'products-cat'),
     );
 
 

@@ -1,0 +1,17 @@
+{
+    "name": "alimmirzaee/muffia",
+    "description": "💩 A WordPress Child Theme On Shoulders Of Muffin Group BeTheme (NOTICE: consider the emoji as a happy muffin))",
+    "type": "wordpress-child-theme",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Ali M.Mirzaee",
+            "email": "me@alimrz.com"
+        }
+    ],
+    "keywords": ["wordpress", "theme", "betheme"],
+    "require": {
+        "php": ">5.6",
+        "cmb2/cmb2": "^2.5"
+    }
+}

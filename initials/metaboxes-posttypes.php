@@ -11,7 +11,7 @@ function muffia_products_metabox()
     $cmb = new_cmb2_box(array(
         'id' => 'product_metabox',
         'title' => 'Product Data',
-        'object_types' => array('muffia_products',), // Post type
+        'object_types' => array('products',), // Post type
         'context' => 'normal',
         'priority' => 'high',
         'show_names' => true, // Show field names on the left

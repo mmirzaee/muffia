@@ -6,10 +6,10 @@ function muffia_taxonomies_init()
     // Gallery Category
 
     $muffia_products_cat_labels = array(
-        'name' => 'دسته‌های گالری',
-        'singular_name' => 'دسته گالری',
-        'edit_item' => 'ویرایش دسته گالری',
-        'menu_name' => 'دسته‌های گالری'
+        'name' => 'Products Category',
+        'singular_name' => 'Category',
+        'edit_item' => 'Edit Product Category',
+        'menu_name' => 'Product Categories'
     );
 
     $muffia_products_cat_args = array(

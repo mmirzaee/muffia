@@ -16,15 +16,17 @@ function muffia_products_metabox()
     ));
 
     $cmb->add_field(array(
-        'name' => 'slides',
-        'desc' => 'Upload an image or enter an URL.',
+        'name' => 'Slides',
         'id' => 'muffia_product_slide_images',
         'type' => 'file_list',
         'query_args' => array('type' => 'image'), // Only images attachment
-        'preview_size' => array(200, 80), // Default: array( 50, 50 )
-        'options' => array(
-            'url' => true, // Hide the text input for the url
-        ),
+    ));
+
+    $cmb->add_field(array(
+        'name' => 'PDF',
+        'id' => 'muffia_product_spec',
+        'type' => 'file',
+        'query_args' => array('type' => 'application/pdf'), // Only pdf attachment
     ));
 
 }

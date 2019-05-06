@@ -16,7 +16,7 @@ function muffia_post_types_init()
         'menu_name' => 'Products'
     );
 
-    $supports = array('title', 'editor', 'thumbnail');
+    $supports = array('title', 'editor', 'thumbnail', 'custom-fields');
 
     $muffia_posts_args = array(
         'labels' => $muffia_posts_labels,

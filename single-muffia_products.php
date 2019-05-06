@@ -14,8 +14,8 @@ get_header();
                             <div class="vc_row wpb_row vc_row-fluid">
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
                                     <div class="vc_column-inner">
-                                        <div class="wpb_wrapper"><!-- vc_grid start -->
-                                            <?php the_content(); ?>
+                                        <div class="wpb_wrapper">
+                                            <?php echo get_the_content(); ?>
                                         </div>
                                     </div>
                                 </div>

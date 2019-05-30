@@ -15,12 +15,12 @@ function muffia_products_metabox()
         'show_names' => true, // Show field names on the left
     ));
 
-    $cmb->add_field(array(
-        'name' => 'Slides',
-        'id' => 'muffia_product_slide_images',
-        'type' => 'file_list',
-        'query_args' => array('type' => 'image'), // Only images attachment
-    ));
+//    $cmb->add_field(array(
+//        'name' => 'Slides',
+//        'id' => 'muffia_product_slide_images',
+//        'type' => 'file_list',
+//        'query_args' => array('type' => 'image'), // Only images attachment
+//    ));
 
     $cmb->add_field(array(
         'name' => 'PDF',

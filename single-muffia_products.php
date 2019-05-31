@@ -3,13 +3,13 @@ get_header();
 ?>
 <style>
     .ead-preview {
-        width: 50%;
+        width: calc(50% - 60px);
         padding: 30px;
     }
 
     @media (max-width: 575.98px) {
         .ead-preview {
-            width: 100%;
+            width: calc(100% - 60px);
             padding: 30px;
         }
     }

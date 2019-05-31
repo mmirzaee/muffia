@@ -4,7 +4,7 @@ get_header();
 <style>
     .ead-preview {
         width: calc(50% - 60px);
-        padding: 30px;
+        padding: 30px 30px 0 30px;
         display: inline-block;
     }
 
@@ -20,9 +20,11 @@ get_header();
         }
     }
 
-    #product-content{
+    #product-content {
         width: calc(50% - 60px);
-        padding: 30px;
+        padding: 30px 30px 0 30px;
+        display: inline-block;
+        float: right;
     }
 
 </style>
@@ -33,7 +35,11 @@ if ($pdf_url):
 endif;
 ?>
 <div id="product-content">
-    <?php the_content(); ?>
+    <?php
+    $content_post = get_post(get_the_ID());
+    $content = $content_post->post_content;
+    echo apply_filters('the_content', $content_post->post_content);
+    ?>
 </div>
 <?php
 get_footer();
